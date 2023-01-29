@@ -1,0 +1,670 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+    max-width: 1280px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header-nav .glabnaya {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.header-nav .onas-uslugi {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.tboygaytpo {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    letter-spacing: 0.355em;
+    text-transform: uppercase;
+    color: #DBAD39;
+    /* max-width: 707px; */
+}
+
+.tboygaytpo .postupleniya {
+    color: #092C8F;
+    /* max-width: 707px; */
+}
+
+.studtssha-responsi {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #092C8F;
+}
+
+.obrazovaniya {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    text-transform: capitalize;
+    color: #464645;
+    max-width: 580px;
+}
+
+@media screen and (max-width:869px) {
+    .postupleniya {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.38em;
+        text-transform: uppercase;
+        color: #DBAD39;
+    }
+}
+
+.besplatnaya {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.355em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 20px auto 0 auto;
+}
+
+.ovalozodlik {
+    background-color: #FFD15C;
+    border-radius: 50%;
+    width: 393px;
+    height: 393px;
+    margin-top: 130px;
+}
+
+.ozodlikhayklali {
+    margin-top: -100px;
+}
+
+.ozodlik img {
+    width: 500px;
+    height: 700px;
+}
+
+.company_o-yel {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.desc-com-zem {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.1em;
+    color: #606060;
+}
+
+.snamvi {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #676767;
+}
+
+.obsyas {
+    max-width: 343px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4A4A4A;
+}
+
+.podrobniy {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFD15C;
+}
+
+.podrobniy2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.postupleniy-text {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #676767;
+}
+
+.informasiyaobusl {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.uslugi_row {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.minumum_row {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #6B6B6B;
+}
+
+.tuqqizming {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.usluga-list {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 34px;
+    /* text-align: center; */
+    letter-spacing: -0.05em;
+    color: #101010;
+}
+
+.podrobssniy {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.tuqqizming2 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFD15C;
+}
+
+.nasha-kamanda {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.zemennayag {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #939393;
+    max-width: 850px;
+}
+
+.elispre {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #5F5F5F;
+}
+
+.eliswdwpre {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.prepodav {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #656565;
+}
+
+.zemnayag {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    color: #6C6C6C;
+}
+
+.maskcolorbg {
+    border-radius: 50%;
+    width: 165px;
+    height: 165px;
+}
+
+.parkneriafterelis {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.eliscardimg {
+    box-shadow: 0px 10px 20px rgba(249, 197, 65, 0.2);
+}
+
+.wooodmanxira {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px rgba(249, 197, 65, 0.1);
+    border-radius: 10px;
+}
+
+.woodmanbig {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #000000;
+}
+
+.woodmanhira {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.zemnayagruf {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #515151;
+    max-width: 690px;
+    margin: 50px auto 19px auto;
+}
+
+.nascharto {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.podrobneekich {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 116.2%;
+    /* or 23px */
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFD15C;
+}
+
+.zemnayatuksv {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 118.2%;
+    /* or 24px */
+    letter-spacing: 0.08em;
+    color: #606060;
+    max-width: 538px;
+}
+
+.kakpuchitv {
+    box-shadow: 0px 0px 20px 4px rgba(249, 197, 65, 0.2);
+    border-radius: 10px;
+}
+
+.kakpolucgitvizu {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #858585;
+}
+
+.estvopros {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: 0.08em;
+    color: #FFD15C;
+}
+
+.otpravit6 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 44px auto;
+}
+
+.bashvopros {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    color: #707070;
+    width: 330px;
+}
+
+.textbashv {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    color: #656464;
+}
+
+.klientonas {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #DBAD39;
+}
+
+.ondovbelgi {
+    margin-top: -360px;
+}
+
+.klientzemnaya {
+    max-width: 665px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #4F4F4F;
+}
+
+.alinaalieva {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: 0.12em;
+    color: #FFD15C;
+}
+
+.studendkactendfora {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #6D6D6D;
+}
+
+.naznembeseda {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.kontact-label {
+    box-shadow: 0px 0px 40px rgba(249, 197, 65, 0.2);
+}
+
+.input-label-width {
+    max-width: 500px;
+}
+
+.w274px {
+    margin: 0 auto;
+}
+
+@media screen and (min-width:467px) and (max-width:617px) {
+    .input-label-width {
+        max-width: 350px;
+    }
+}
+
+@media screen and (min-width:167px) and (max-width:467px) {
+    .w274px {
+        margin: 0 30px;
+    }
+    .input-label-width {
+        max-width: 250px;
+    }
+    .button-label-width {
+        width: 100px;
+    }
+}
+
+.svyazatcname {
+    box-shadow: 0px 10px 20px rgba(0, 11, 255, 0.2);
+    padding: 18px 25px 17px 25px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.kontaktip {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.15em;
+    color: #676767;
+}
+
+.kontac799i {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #676767;
+}
+
+.studyusainfo {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #676767;
+}
+
+.studusssha {
+    font-family: 'Brinnan';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #092C8F;
+}
+
+.glavfooter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.foote799r {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.studyfooru3 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.telshaseg {
+    margin: 13px auto 66px auto;
+}
+
+.telegraminsfoo {
+    margin: 0 auto;
+}
