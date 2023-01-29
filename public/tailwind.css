@@ -635,6 +635,62 @@ video {
   top: 7610px;
 }
 
+.top-\[6965px\] {
+  top: 6965px;
+}
+
+.top-\[6895px\] {
+  top: 6895px;
+}
+
+.top-\[6905px\] {
+  top: 6905px;
+}
+
+.top-\[6955px\] {
+  top: 6955px;
+}
+
+.top-\[6975px\] {
+  top: 6975px;
+}
+
+.top-\[6977px\] {
+  top: 6977px;
+}
+
+.top-\[6979px\] {
+  top: 6979px;
+}
+
+.top-\[6978px\] {
+  top: 6978px;
+}
+
+.top-\[7710px\] {
+  top: 7710px;
+}
+
+.top-\[7810px\] {
+  top: 7810px;
+}
+
+.top-\[7780px\] {
+  top: 7780px;
+}
+
+.top-\[7790px\] {
+  top: 7790px;
+}
+
+.top-\[7750px\] {
+  top: 7750px;
+}
+
+.top-\[7100px\] {
+  top: 7100px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -645,6 +701,10 @@ video {
 
 .z-10 {
   z-index: 10;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mt-\[100px\] {
@@ -715,10 +775,6 @@ video {
   margin-bottom: -80px;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -783,22 +839,6 @@ video {
   margin-top: 12px;
 }
 
-.mr-\[400px\] {
-  margin-right: 400px;
-}
-
-.mr-\[700px\] {
-  margin-right: 700px;
-}
-
-.mr-\[800px\] {
-  margin-right: 800px;
-}
-
-.ml-\[-800px\] {
-  margin-left: -800px;
-}
-
 .flex {
   display: flex;
 }
@@ -813,6 +853,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-6 {
+  height: 1.5rem;
 }
 
 .h-\[132px\] {
@@ -835,8 +879,16 @@ video {
   height: 161px;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-\[1000px\] {
+  height: 1000px;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-\[400px\] {
@@ -879,20 +931,12 @@ video {
   width: 274px;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-24 {
-  width: 6rem;
+.w-\[1000px\] {
+  width: 1000px;
 }
 
 .max-w-\[600px\] {
   max-width: 600px;
-}
-
-.flex-none {
-  flex: none;
 }
 
 .cursor-pointer {
@@ -1031,12 +1075,12 @@ video {
   border-radius: 1rem;
 }
 
-.rounded-\[50px\] {
-  border-radius: 50px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-\[50px\] {
+  border-radius: 50px;
 }
 
 .rounded-\[5px\] {
@@ -1200,6 +1244,10 @@ video {
   padding-top: 53px;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1308,18 +1356,6 @@ video {
   padding-top: 63px;
 }
 
-.pt-9 {
-  padding-top: 2.25rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -1331,6 +1367,11 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-\[\#092C8F\] {
@@ -1351,11 +1392,6 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .container {
@@ -2037,19 +2073,14 @@ video {
   border-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
 
-.hover\:bg-blue-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-blue-100:hover {
+.hover\:bg-blue-700:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:text-\[\#3964DB\]:hover {
@@ -2084,11 +2115,6 @@ video {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
-.focus\:ring-blue-200:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(191 219 254 / var(--tw-ring-opacity));
-}
-
 .active\:border:active {
   border-width: 1px;
 }
@@ -2102,11 +2128,6 @@ video {
   .dark\:text-gray-400 {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-blue-400 {
-    --tw-text-opacity: 1;
-    color: rgb(96 165 250 / var(--tw-text-opacity));
   }
 
   .dark\:hover\:bg-gray-700:hover {
@@ -2143,10 +2164,6 @@ video {
     display: flex;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:w-\[707px\] {
     width: 707px;
   }
@@ -2174,10 +2191,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mr-\[0px\] {
-    margin-right: 0px;
-  }
-
   .lg\:block {
     display: block;
   }
